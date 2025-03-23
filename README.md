@@ -35,13 +35,14 @@ To achieve it, I created a function that outputs all the different edges of the 
 Since we knew that the polygon was a quadrilateral, it was easier to create a dictionary to contain all of them.
 Then, I iteratively compared them to one another to find which polygons were next to each other - and shared an edge.
 We found that all the polygons were adjacent to at least 2 other polygons, which made sense given our diagram at the beginning.
-Here is an extract of the result:
-  
+Here is an extract of the result:  
+
 ![image](https://github.com/user-attachments/assets/b4c040c6-8505-40c5-b098-9d5e9bffa176)
 
 6. Building the model
 I used PuLP to build the optimization model. I loaded each constraint as stated above and obtained the optimized distribution of land parcels to store the carbon.
 Here is a picture of the result:
+  
 ![image](https://github.com/user-attachments/assets/80e05fc6-d13d-41e1-affc-8228de0993c8)
 
 
