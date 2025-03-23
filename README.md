@@ -45,7 +45,13 @@ Here is a picture of the result:
   
 ![image](https://github.com/user-attachments/assets/80e05fc6-d13d-41e1-affc-8228de0993c8)
 
+**Conclusion:**  
+From the result of the model, we found that this distribution fits all the constraints:
+- Budget: 139,712
+- Total carbon storage: 2841
+- And no two polygons are adjacent (visible from the graph)
 
-
+To me, the solution makes sense. Given that we are limited to the constraint of 50% of the cost (total: 281,926), we obtained about 50.6% of the total carbon storage (total: 5606).  
+Side note: I noticed that the 3rd constraint is superfluous, we obtain the same result of the optimization model with or without it.
 
  
