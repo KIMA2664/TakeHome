@@ -41,7 +41,7 @@ Here is an extract of the result:
 
 6. Building the model
 I used PuLP to build the optimization model. I loaded each constraint as stated above and obtained the optimized distribution of land parcels to store the carbon.
-Here is a picture of the result:
+Here is a picture of the result: (The red represents the chosen land parcels)
   
 ![image](https://github.com/user-attachments/assets/80e05fc6-d13d-41e1-affc-8228de0993c8)
 
