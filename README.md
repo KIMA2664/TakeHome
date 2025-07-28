@@ -1,4 +1,4 @@
-# Computational Research Assistant TakeHome Assignment #
+# Computational Research Assistant Optimisation Model #
 
 **Data provided:** land_parcels
 It contained 100 different regions, with the volume of carbon it could store, and the cost of storing the carbon.
